@@ -1,0 +1,259 @@
+@import "../../../assets/scss/_main";
+
+.main {
+  width: 100%;
+  height: auto;
+  background: #f1f1f1;
+  color: #222;
+
+  .content-right .navbar .navbar-nav .nav-item .b-skeleton-avatar {
+
+    height: 40px;
+    width: 40px;
+  }
+
+  .pages {
+    padding: 15px;
+    height: 100vh;
+    margin-top: -56px;
+    padding-top: 100px;
+
+    .info-cards {
+      .card {
+        border-radius: 10px;
+      }
+    }
+  }
+
+  .sidebar {
+    .logo {
+      padding: 10px;
+      text-align: center;
+      width: 100%;
+
+      img {
+        height: 40px;
+      }
+
+      .avatar {
+        width: 40px !important;
+        height: 40px !important;
+        border-radius: 50%;
+      }
+    }
+
+    .sidebar-menu {
+      padding: 20px;
+
+      .input-group {
+        display: inline-flex !important;
+        margin-left: 0px !important;
+        flex-wrap: nowrap !important;
+
+        .input-group-prepend {
+          background: #ffffff;
+          color: #ccc;
+          padding: 10px 10px;
+          border: none !important;
+          box-shadow: none !important;
+          border-radius: 5px 0px 0px 5px;
+        }
+
+
+        .form-control {
+          color: #555;
+          border: 1px solid #fff;
+          box-shadow: none;
+        }
+
+        .form-control:focus {
+          box-shadow: none !important;
+        }
+
+      }
+
+
+      .sidebar-separated {
+        font-size: 15px;
+        font-weight: bold;
+        color: #444444;
+
+        hr {
+          margin-top: 0px;
+          margin-bottom: 20px;
+          border: 0;
+          border-top: 2px solid #444444;
+          /* box-shadow: 0px 0px 0px 0px #888; */
+        }
+      }
+
+      ul {
+
+        li {
+
+          .card:hover {
+            background-color: rgb(0 0 0 / 50%);
+            color: #f9f9f9;
+          }
+
+          list-style: none;
+          padding: 10px 0px;
+          font-size: 15px;
+          color: #444444;
+          font-weight: bold;
+
+          .router-link-active {
+            color: $primary;
+          }
+
+          svg:not(:root).svg-inline--fa {
+            overflow: visible;
+            margin-right: 10px;
+          }
+
+          a {
+            color: #444444;
+            text-decoration: none;
+          }
+
+          a:hover {
+            color: $primary;
+          }
+
+        }
+      }
+    }
+
+
+  }
+
+  .content-right {
+    width: 100%;
+
+    .navbar {
+      background: $primary  !important;
+      border-radius: 0px;
+      color: #f9f9f9;
+      padding: 10px;
+      box-shadow: 0px 0px 15px 0px #ccc;
+
+      @media (max-width: 768px) {
+        .navbar-nav {
+          padding: 0 30px;
+          margin: -10px;
+          display: contents !important;
+          align-items: center;
+
+          .nav-item {
+            font-size: 20px;
+            padding: 0 15px !important;
+
+            .badge {
+              background: #d9534f;
+              position: absolute;
+              top: 15px !important;
+              font-size: 10px;
+            }
+          }
+
+        }
+      }
+
+      @media (min-width: 768px) {
+        display: flex !important;
+      }
+
+
+      .navbar-nav {
+        padding: 0 30px;
+        margin: -10px;
+        align-items: center;
+
+
+
+        .nav-item {
+          font-size: 20px;
+          padding: 0 20px;
+
+          .badge {
+            background: #d9534f;
+            position: absolute;
+            top: 5px;
+            font-size: 10px;
+          }
+
+          img {
+            height: 40px;
+          }
+
+          .notification a {
+            color: #fff;
+            padding: 8px;
+          }
+
+          .notification a:hover {
+            background: none;
+          }
+
+          .notification a:active {
+            background: none;
+          }
+
+          .notification a:focus {
+            background: none;
+          }
+
+          .dropdown-menu>li>a {
+            display: block;
+            padding: 3px 20px;
+            clear: both;
+            font-weight: 400;
+            line-height: 1.428571429;
+            color: #f9f9f9;
+            white-space: nowrap;
+          }
+
+        }
+
+
+      }
+
+      .input-group {
+        display: inline-flex !important;
+        margin-left: 70px !important;
+        flex-wrap: nowrap !important;
+
+        .input-group-prepend {
+          background: #ffffff;
+          color: #ccc;
+          padding: 7px 10px;
+          border-radius: 5px 0px 0px 5px;
+        }
+
+
+        .form-control {
+          border: none;
+          color: #555
+        }
+
+        .form-control:focus {
+          box-shadow: none !important;
+        }
+
+      }
+
+      .right-itens {
+        float: right;
+      }
+
+      .profile {
+        width: 70px;
+        height: 70px;
+        background: #333;
+      }
+    }
+
+
+  }
+
+}
