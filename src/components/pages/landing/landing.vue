@@ -342,8 +342,7 @@
                 <br>(47) 9 8416-0059 (Dávida) - (47) 9 8416-0216 (Fábiola), ou utilize o formulário abaixo para entrar
                 em contato. Se preferir, envie diretamente um e-mail: <br>davida@db-assuntosregulatorios.com
               </p>
-              <p class="lead text-white">Estamos localizados em Itajaí à Av. Cel. Marcos Konder 950, sala 6 – Edifício
-                Valentin.</p>
+              <p class="lead text-white">Estamos localizados em Itajaí à Av. Almirante Tamandaré, 20 - sala 304</p>
             </div>
           </div>
 
@@ -369,9 +368,9 @@
 
 <script>
 
-import heading from './heading'
-import footered from './footer'
-import formContact from './form-contact'
+import footered from './footer';
+import formContact from './form-contact';
+import heading from './heading';
 
 export default {
   name: "landing",
